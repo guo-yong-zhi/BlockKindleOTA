@@ -1,22 +1,28 @@
 {
 	"items": [
-	{
-		"name": "Block OTA",
-		"priority": -998,
-		"items": [
 		{
-            "name": "Block", 
-            "priority": 1, 
-            "action": "bin/rename.sh",
-            "exitmenu": true
-		},
-		{
-            "name": "Unblock", 
-            "priority": 2, 
-            "action": "bin/restore.sh",
-            "exitmenu": true
+			"name": "Tools",
+			"priority": -10,
+			"items": [
+				{
+					"name": "Block OTA",
+					"priority": 100,
+					"items": [
+						{
+							"name": "Block",
+							"priority": 1,
+							"action": "bin/rename.sh",
+							"exitmenu": true
+						},
+						{
+							"name": "Unblock",
+							"priority": 2,
+							"action": "bin/restore.sh",
+							"exitmenu": true
+						}
+					]
+				}
+			]
 		}
-		]
-	}
 	]
 }
