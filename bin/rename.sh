@@ -1,6 +1,6 @@
 #!/bin/sh
 mntroot rw
-rm /mnt/us/update_kindle*.bin
+rm /mnt/us/update*.bin
 cd /usr/bin
 mv otaupd otaupd.bck
 mv otav3 otav3.bck
